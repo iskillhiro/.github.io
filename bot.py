@@ -56,6 +56,7 @@ def echo_message(message):
     bot.send_message(message.chat.id, 'Воспользуйся клавиатурой', reply_markup=markup)
 
 # Запуск бота
+keep_alive()
 bot.polling()
 
 
