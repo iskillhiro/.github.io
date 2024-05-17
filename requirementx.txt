@@ -1,0 +1,3 @@
+telebot
+Flask
+beautifulsoup4
